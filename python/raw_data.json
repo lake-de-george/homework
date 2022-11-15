@@ -1,0 +1,184 @@
+{
+  "id": 1,
+  "uuid": "a24f4059-a7c9-45b4-8c28-7a8174253208",
+  "hostname": "chat01.abc.internal",
+  "ip_address": "x.x.x.x",
+  "rooms": [
+    {
+      "id": 1,
+      "uuid": "e9cedcd5-2c23-4ab2-bef3-213ce84c05ad",
+      "name": "Party Room",
+      "owner": {
+        "id": 1,
+        "uuid": "1c1e4090-a622-4450-943c-03794fd832ad",
+        "level": "administrator",
+        "profile_icon": "",
+        "nickname": "Admin Angel"
+      },
+      "chats": [
+        {
+          "id": 1,
+          "uuid": "ad4e2871-2952-4ef3-8a79-93a0c475fe34",
+          "sender_ip_address": "x.x.x.x",
+          "message": "Hi Tom",
+          "room_id": 1,
+          "sender": {
+            "id": 2,
+            "uuid": "9d5f2297-92a5-4eb2-82e4-289dec6e7e1d",
+            "level": "user",
+            "profile_icon": "",
+            "nickname": "Tim Morgan"
+          },
+          "published_date": "2022-11-12 13:46:25.521585"
+        },
+        {
+          "id": 2,
+          "uuid": "2725ca1c-22a1-4420-93e7-6f0fbd0ccc7b",
+          "sender_ip_address": "x.x.x.x",
+          "message": "Hi Tim",
+          "room_id": 1,
+          "sender": {
+            "id": 3,
+            "uuid": "072264f1-6cbf-462d-9b51-73e756afcd5e",
+            "level": "user",
+            "profile_icon": "",
+            "nickname": "Tom Dundee"
+          },
+          "published_date": "2022-11-12 13:50:25.521585"
+        },
+        {
+          "id": 3,
+          "uuid": "24293b33-b609-405d-8384-ed1b418a9c85",
+          "sender_ip_address": "x.x.x.x",
+          "message": "Where are you Tom?",
+          "room_id": 1,
+          "sender": {
+            "id": 2,
+            "uuid": "9d5f2297-92a5-4eb2-82e4-289dec6e7e1d",
+            "level": "user",
+            "profile_icon": "",
+            "nickname": "Tim Morgan"
+          },
+          "published_date": "2022-11-12 13:51:25.521585"
+        },
+        {
+          "id": 4,
+          "uuid": "bc904813-0beb-496a-b00d-5adb3e775b24",
+          "sender_ip_address": "x.x.x.x",
+          "message": "I'm at Queen Sirikit National Convention Center.",
+          "room_id": 1,
+          "sender": {
+            "id": 3,
+            "uuid": "072264f1-6cbf-462d-9b51-73e756afcd5e",
+            "level": "user",
+            "profile_icon": "",
+            "nickname": "Tom Dundee"
+          },
+          "published_date": "2022-11-12 13:51:50.521585"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "uuid": "d842194d-417b-4b61-85e9-59ac9e6c5e75",
+      "name": "Living Room",
+      "owner": {
+        "id": 7,
+        "uuid": "929b0d9f-c67c-4b41-9b2a-76a0ad5e675f",
+        "level": "administrator",
+        "profile_icon": "",
+        "nickname": "Admin Boron"
+      },
+      "chats": [
+        {
+          "id": 5,
+          "uuid": "531550d6-1b7a-4826-86db-322fb5c12d2d",
+          "sender_ip_address": "x.x.x.x",
+          "message": "I'll sing a song",
+          "room_id": 2,
+          "sender": {
+            "id": 4,
+            "uuid": "705ae3b3-8097-4b58-b210-f0c10621b8bc",
+            "level": "user",
+            "profile_icon": "",
+            "nickname": "Tristan Prettyman"
+          },
+          "published_date": "2022-11-11 10:46:25.521585"
+        },
+        {
+          "id": 6,
+          "uuid": "9181e5d8-cbb0-4a3f-9cf0-c7d3c4d9bea6",
+          "sender_ip_address": "x.x.x.x",
+          "message": "Which one?",
+          "room_id": 2,
+          "sender": {
+            "id": 5,
+            "uuid": "0cb0e1a7-e444-4364-a878-87948ee4b784",
+            "level": "user",
+            "profile_icon": "",
+            "nickname": "Liz Longley"
+          },
+          "published_date": "2022-11-11 10:50:25.521585"
+        },
+        {
+          "id": 7,
+          "uuid": "61df1c57-3cb1-44ac-97fa-c2cd6bb766c2",
+          "sender_ip_address": "x.x.x.x",
+          "message": "Never Say Never",
+          "room_id": 2,
+          "sender": {
+            "id": 4,
+            "uuid": "705ae3b3-8097-4b58-b210-f0c10621b8bc",
+            "level": "user",
+            "profile_icon": "",
+            "nickname": "Tristan Prettyman"
+          },
+          "published_date": "2022-11-11 10:51:25.521585"
+        },
+        {
+          "id": 8,
+          "uuid": "b396812b-e33a-4e61-917b-5579ff5321bc",
+          "sender_ip_address": "x.x.x.x",
+          "message": "I know your favorite song. This one right?",
+          "room_id": 2,
+          "sender": {
+            "id": 6,
+            "uuid": "e28b7f04-1b17-4f53-bddb-bd3310ee8a75",
+            "level": "user",
+            "profile_icon": "",
+            "nickname": "Adam Espresso"
+          },
+          "published_date": "2022-11-11 10:52:00.521585"
+        },
+        {
+          "id": 9,
+          "uuid": "2c889ead-c9a3-4bc4-b44f-7e8910aca54d",
+          "sender_ip_address": "x.x.x.x",
+          "message": "Wish I would've listened to myself You would've thought I'd known better Shouldn't trust my heart this time But the mind, it changes like the weather The scars will fade away, and I may never be the same But you can't start a fire in the pouring rain Never say never",
+          "room_id": 2,
+          "sender": {
+            "id": 6,
+            "uuid": "e28b7f04-1b17-4f53-bddb-bd3310ee8a75",
+            "level": "user",
+            "profile_icon": "",
+            "nickname": "Adam Espresso"
+          },
+          "published_date": "2022-11-11 10:52:40.521585"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "uuid": "74fc1bae-b5a5-460c-8610-7d8413bd0053",
+      "name": "Karaoke Room",
+      "owner": {
+        "id": 7,
+        "uuid": "929b0d9f-c67c-4b41-9b2a-76a0ad5e675f",
+        "level": "administrator",
+        "profile_icon": "",
+        "nickname": "Admin Boron"
+      },
+      "chats": []
+    }
+  ]
+}
